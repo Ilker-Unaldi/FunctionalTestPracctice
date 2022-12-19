@@ -3,9 +3,9 @@ package practice.pages;
 import org.openqa.selenium.support.PageFactory;
 import practice.utilities.Driver;
 
-public class Base_Page {
+public class BasePage {
 
-    public Base_Page(){
+    public BasePage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 }

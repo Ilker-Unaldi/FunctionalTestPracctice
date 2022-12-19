@@ -1,2 +1,17 @@
-package practice.runner;public class StepRunner {
+package practice.runner;
+
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        features = "src/test/resources/features",
+        glue = "practice/stepdefinitions",
+        tags = "@test"
+)
+
+public class TestRunner {
+
 }
