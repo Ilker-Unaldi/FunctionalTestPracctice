@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="practice.runner.TestRunner" time="10.097" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="practice.runner.TestRunner" time="26.083" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -61,65 +61,5 @@
     <property name="java.vendor.version" value="Corretto-15.0.2.7.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="EMPTY_NAME" name="Home Page verification" time="10.097">
-    <error message="Unable to locate element: //a[@class=&apos;nav-link&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8778dd18-15ed-4f7b-b5d2-44231f75d97e, findElement {using=xpath, value=//a[@class=&apos;nav-link&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:19409, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19380, moz:profile: C:\Users\ilkeru\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19409/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8778dd18-15ed-4f7b-b5d2-44231f75d97e" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;nav-link&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8778dd18-15ed-4f7b-b5d2-44231f75d97e, findElement {using=xpath, value=//a[@class=&apos;nav-link&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:debuggerAddress: 127.0.0.1:19409, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19380, moz:profile: C:\Users\ilkeru\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19409/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8778dd18-15ed-4f7b-b5d2-44231f75d97e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
-	at practice.stepdefinitions.HomePage.i_click_home_button(HomePage.java:22)
-	at ✽.I click Home Button(file:///C:/Ozel/Test_Projects/FunctionalTestPractice/src/test/resources/features/HomePage.feature:6)
-</error>
-    <system-err>SLF4J: No SLF4J providers were found.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-1671475654369	geckodriver	INFO	Listening on 127.0.0.1:34575
-1671475655339	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;19409&quot; &quot;--remote-allow-hosts&quot; &quot;localhost&quot; &quot;--remote-allow-origins&quot; &quot;http://127.0.0.1:19409/,http://localhost:19409/,http://[::1]:19409/&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\ilkeru\\AppData\\Local\\Temp\\rust_mozprofilekb9phc&quot;
-1671475655782	Marionette	INFO	Marionette enabled
-1671475655787	Marionette	INFO	Listening on port 56162
-Read port: 56162
-WebDriver BiDi listening on ws://127.0.0.1:19409
-1671475655870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\ilkeru\\AppData\\Local\\Temp\\rust_mozprofilekb9phc\\search.json.mozlz4&quot;, (void 0)))
-DevTools listening on ws://127.0.0.1:19409/devtools/browser/c8d62eda-417d-4bc2-934c-5c3e4bc317da
-1671475657941	geckodriver	INFO	Listening on 127.0.0.1:11928
-1671475658438	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;23220&quot; &quot;--remote-allow-hosts&quot; &quot;localhost&quot; &quot;--remote-allow-origins&quot; &quot;http://127.0.0.1:23220/,http://localhost:23220/,http://[::1]:23220/&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\ilkeru\\AppData\\Local\\Temp\\rust_mozprofileMAnZWK&quot;
-1671475658932	Marionette	INFO	Marionette enabled
-1671475658938	Marionette	INFO	Listening on port 56208
-Read port: 56208
-WebDriver BiDi listening on ws://127.0.0.1:23220
-1671475659047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\ilkeru\\AppData\\Local\\Temp\\rust_mozprofileMAnZWK\\search.json.mozlz4&quot;, (void 0)))
-DevTools listening on ws://127.0.0.1:23220/devtools/browser/ebcb2a66-a10f-4feb-9f4c-5ff4617ef138
-</system-err>
-  </testcase>
+  <testcase classname="EMPTY_NAME" name="Home Page verification" time="26.083"/>
 </testsuite>
